@@ -9,12 +9,8 @@
 # Additional Comments
 
 def weight_on_planets():
-    weight = int(input())
-    # print("What do you weigh on earth? {}\n\nOn Mars you would weigh {} pounds.\nOn Jupiter you would weigh {} pounds.".format(weight, weight*0.38, weight*2.34))
-    print("What do you weigh on earth? \nOn Mars you would weigh {} pounds.\nOn Jupiter you would weigh {} pounds.".format(weight*0.38, weight*2.34))
-    # write your code here
-    # Passes planet_tests.py Unit test. The commented out print statement matches the lab specifications from polylearn
-
+    weight = int(input("What do you weigh on earth? "))
+    print("\nOn Mars you would weigh {} pounds.\nOn Jupiter you would weigh {} pounds.".format(weight*0.38, weight*2.34))
    
    
 if __name__ == '__main__':
